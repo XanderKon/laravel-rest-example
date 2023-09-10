@@ -16,6 +16,8 @@
 
 Более подробно можно ознакомиться здесь: https://laravel.com/docs/10.x
 
+Есть также неплохой видеокурс по Laravel. Для старта может оказаться весьма полезным: https://youtu.be/e0L2hQ88LSg?list=PLoonZ8wII66iP0fJPHhkLXa3k7CMef9ak
+
 **3) Что такое composer?**
 
 Касаясь разработки на php обязательно придётся столкнуться с менеджером пакетов под названием Composer (https://getcomposer.org/doc/00-intro.md).
