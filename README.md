@@ -39,11 +39,13 @@
 
 Доступные методы:
 
+```
 GET|HEAD   api/v1/news ................ news.get › NewsController@get
 POST       api/v1/news ................ news.create › NewsController@create
 DELETE     api/v1/news ................ news.delete › NewsController@delete
 PATCH      api/v1/news ................ news.update › NewsController@update
 GET|HEAD   api/v1/news/search ......... news.search › NewsController@search
+```
 
 ## Тесты
 
