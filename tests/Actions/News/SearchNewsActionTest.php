@@ -2,7 +2,6 @@
 
 namespace Tests\Services\News\Actions;
 
-use App\Services\News\Actions\SearchNewsAction;
 use Tests\TestCase;
 
 class SearchNewsActionTest extends TestCase

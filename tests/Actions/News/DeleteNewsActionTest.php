@@ -3,8 +3,8 @@
 namespace Tests\Services\News\Actions;
 
 
+use App\Actions\News\DeleteNewsAction;
 use App\Models\News;
-use App\Services\News\Actions\DeleteNewsAction;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 

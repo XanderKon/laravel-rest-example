@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Services\News\Actions;
+namespace App\Actions\News;
 
 use App\Models\News;
 use Illuminate\Support\Str;
+use function tap;
 
 class UpdateNewsAction
 {

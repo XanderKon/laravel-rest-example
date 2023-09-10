@@ -2,8 +2,8 @@
 
 namespace Tests\Services\News\Actions;
 
+use App\Actions\News\CreateNewsAction;
 use App\Models\News;
-use App\Services\News\Actions\CreateNewsAction;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 

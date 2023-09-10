@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\News\Actions;
+namespace App\Actions\News;
 
 use App\Models\News;
 

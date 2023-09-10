@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Actions\News\CreateNewsAction;
+use App\Actions\News\DeleteNewsAction;
+use App\Actions\News\SearchNewsAction;
+use App\Actions\News\UpdateNewsAction;
 use App\Http\Requests\News\CreateNewsRequest;
 use App\Http\Requests\News\DeleteNewsRequest;
 use App\Http\Requests\News\SearchNewsRequest;
 use App\Http\Requests\News\ShowNewsRequest;
 use App\Http\Requests\News\UpdateNewsRequest;
 use App\Models\News;
-use App\Services\News\Actions\CreateNewsAction;
-use App\Services\News\Actions\DeleteNewsAction;
-use App\Services\News\Actions\SearchNewsAction;
-use App\Services\News\Actions\UpdateNewsAction;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Response;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
